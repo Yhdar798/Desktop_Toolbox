@@ -1,0 +1,112 @@
+[
+    {
+        "name": "测试-在目录下打开cmd",
+        "icon": "cmd.png",
+        "cmd": "",
+        "workdir": "D:\\aaaaaa\\Scan\\fscan",
+        "open_cmd": true,
+        "category": "测试",
+        "not_in_cmd": true,
+        "run_in_cmd": "echo"
+    },
+    {
+        "name": "测试-在目录下打开cmd并输出执行命令",
+        "icon": "cmd.png",
+        "cmd": "fscan.exe -h 192.168.1.1 -p 80 -t 1000 -o result.txt",
+        "workdir": "D:\\aaaaaa\\Scan\\fscan",
+        "open_cmd": true,
+        "run_in_cmd": "exec",
+        "category": "测试",
+        "not_in_cmd": true
+    },
+    {
+        "name": "测试-在目录下打开cmd执行命令并输出执行命令",
+        "icon": "java.png",
+        "cmd": "\"C:\\Program Files\\Java\\jdk1.8.0_311\\bin\\java\" -jar shiro_attack-4.5.3-SNAPSHOT-all.jar",
+        "workdir": "D:\\aaaaaa\\Exploit\\shiro",
+        "open_cmd": true,
+        "run_in_cmd": "exec",
+        "category": "测试",
+        "not_in_cmd": true
+    },
+    {
+        "name": "测试-执行exe程序",
+        "icon": "java.png",
+        "cmd": "Goby.exe",
+        "workdir": "D:\\aaaaaa\\Scan\\goby-win_Red Com 1490POC\\goby-win_Red_Team",
+        "open_cmd": false,
+        "category": "测试",
+        "not_in_cmd": false,
+        "run_in_cmd": ""
+    },
+    {
+        "name": "fscan",
+        "icon": "cmd.png",
+        "cmd": "",
+        "workdir": "D:\\aaaaaa\\Scan\\fscan",
+        "open_cmd": true,
+        "not_in_cmd": true,
+        "run_in_cmd": "echo",
+        "category": "扫描"
+    },
+    {
+        "name": "shiro4.7.0",
+        "icon": "cmd.png",
+        "cmd": "\"C:\\Program Files\\Java\\jdk1.8.0_311\\bin\\java\" -jar shiro_attack-4.7.0-SNAPSHOT-all.jar",
+        "workdir": "D:\\aaaaaa\\Exploit\\shiro",
+        "open_cmd": true,
+        "not_in_cmd": true,
+        "run_in_cmd": "exec",
+        "category": "shiro"
+    },
+    {
+        "name": "shiro4.5.3",
+        "icon": "cmd.png",
+        "cmd": "\"C:\\Program Files\\Java\\jdk1.8.0_311\\bin\\java\" -jar shiro_attack-4.5.3-SNAPSHOT-all.jar",
+        "workdir": "D:\\aaaaaa\\Exploit\\shiro",
+        "open_cmd": true,
+        "not_in_cmd": true,
+        "run_in_cmd": "exec",
+        "category": "shiro"
+    },
+    {
+        "name": "goby-red",
+        "icon": "cmd.png",
+        "cmd": "Goby.exe",
+        "workdir": "D:\\aaaaaa\\Scan\\goby-win_Red Com 1490POC\\goby-win_Red_Team",
+        "open_cmd": false,
+        "not_in_cmd": false,
+        "run_in_cmd": "",
+        "category": "扫描"
+    },
+    {
+        "name": "goby",
+        "icon": "cmd.png",
+        "cmd": "Goby.exe",
+        "workdir": "D:\\aaaaaa\\Scan\\goby-win_Red Com 1490POC\\goby-win_Community",
+        "open_cmd": false,
+        "not_in_cmd": false,
+        "run_in_cmd": "",
+        "category": "扫描"
+    },
+    {
+        "name": "dirsearch",
+        "icon": "cmd.png",
+        "cmd": "python dirsearch.py -u",
+        "workdir": "D:\\aaaaaa\\Scan\\dirsearch-0.4.3\\dirsearch-0.4.3",
+        "open_cmd": true,
+        "not_in_cmd": true,
+        "run_in_cmd": "echo",
+        "category": "扫描"
+    },
+    {
+        "name": "afrog",
+        "icon": "cmd.png",
+        "cmd": "afrog.exe",
+        "workdir": "D:\\aaaaaa\\Scan\\afrog_3.1.8_windows_amd64",
+        "open_cmd": false,
+        "not_in_cmd": false,
+        "run_in_cmd": "",
+        "category": "扫描"
+    }
+]
